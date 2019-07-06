@@ -6,6 +6,7 @@ class Front_index extends CI_Controller {
 
 public function index()
 {
+                $this->load->view('front_end/api');
                 $this->load->view('front_end/front_index');
 }
         

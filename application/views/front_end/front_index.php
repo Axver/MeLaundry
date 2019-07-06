@@ -40,6 +40,10 @@
     Author: BootstrapMade.com
     License: https://bootstrapmade.com/license/
   ======================================================= -->
+
+  </script>
+   <?php base_url('assets/map/api.php'); ?>
+    <script src="<?php echo base_url('/assets/map/maps.js') ?>"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
@@ -65,7 +69,7 @@
 									</button>
                 <!-- Brand -->
                 <a class="navbar-brand page-scroll sticky-logo" href="index.html">
-                  <h1><span>e</span>Business</h1>
+                  <h1><span>m</span>ELaundry</h1>
                   <!-- Uncomment below if you prefer to use an image logo -->
                   <!-- <img src="img/logo.png" alt="" title=""> -->
 								</a>
@@ -116,10 +120,10 @@
           <div class="slider-content text-center">
             <div class="header-bottom">
               <div class="layer2 wow zoomIn" data-wow-duration="1s" data-wow-delay=".4s">
-                <h1 class="title2">My Blog</h1>
+                <!-- <h1 class="title2"></h1> -->
               </div>
               <div class="layer3 wow zoomInUp" data-wow-duration="2s" data-wow-delay="1s">
-                <h2 class="title3">Profesional Blog Page</h2>
+                <!-- <h2 class="title3"></h2> -->
               </div>
             </div>
           </div>
@@ -130,329 +134,16 @@
   <!-- END Header -->
   <div class="blog-page area-padding">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-          <div class="page-head-blog">
-            <div class="single-blog-page">
-              <!-- search option start -->
-              <form action="#">
-                <div class="search-option">
-                  <input type="text" placeholder="Search...">
-                  <button class="button" type="submit">
-                                            <i class="fa fa-search"></i>
-                                        </button>
-                </div>
-              </form>
-              <!-- search option end -->
-            </div>
-            <div class="single-blog-page">
-              <!-- recent start -->
-              <div class="left-blog">
-                <h4>recent post</h4>
-                <div class="recent-post">
-                  <!-- start single post -->
-                  <div class="recent-single-post">
-                    <div class="post-img">
-                      <a href="#">
-												   <img src="img/blog/1.jpg" alt="">
-												</a>
-                    </div>
-                    <div class="pst-content">
-                      <p><a href="#"> Redug Lerse dolor sit amet consect adipis elit.</a></p>
-                    </div>
-                  </div>
-                  <!-- End single post -->
-                  <!-- start single post -->
-                  <div class="recent-single-post">
-                    <div class="post-img">
-                      <a href="#">
-												   <img src="img/blog/2.jpg" alt="">
-												</a>
-                    </div>
-                    <div class="pst-content">
-                      <p><a href="#"> Redug Lerse dolor sit amet consect adipis elit.</a></p>
-                    </div>
-                  </div>
-                  <!-- End single post -->
-                  <!-- start single post -->
-                  <div class="recent-single-post">
-                    <div class="post-img">
-                      <a href="#">
-												   <img src="img/blog/3.jpg" alt="">
-												</a>
-                    </div>
-                    <div class="pst-content">
-                      <p><a href="#"> Redug Lerse dolor sit amet consect adipis elit.</a></p>
-                    </div>
-                  </div>
-                  <!-- End single post -->
-                  <!-- start single post -->
-                  <div class="recent-single-post">
-                    <div class="post-img">
-                      <a href="#">
-												   <img src="img/blog/4.jpg" alt="">
-												</a>
-                    </div>
-                    <div class="pst-content">
-                      <p><a href="#"> Redug Lerse dolor sit amet consect adipis elit.</a></p>
-                    </div>
-                  </div>
-                  <!-- End single post -->
-                </div>
-              </div>
-              <!-- recent end -->
-            </div>
-            <div class="single-blog-page">
-              <div class="left-blog">
-                <h4>categories</h4>
-                <ul>
-                  <li>
-                    <a href="#">Portfolio</a>
-                  </li>
-                  <li>
-                    <a href="#">Project</a>
-                  </li>
-                  <li>
-                    <a href="#">Design</a>
-                  </li>
-                  <li>
-                    <a href="#">wordpress</a>
-                  </li>
-                  <li>
-                    <a href="#">Joomla</a>
-                  </li>
-                  <li>
-                    <a href="#">Html</a>
-                  </li>
-                  <li>
-                    <a href="#">Website</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="single-blog-page">
-              <div class="left-blog">
-                <h4>archive</h4>
-                <ul>
-                  <li>
-                    <a href="#">07 July 2016</a>
-                  </li>
-                  <li>
-                    <a href="#">29 June 2016</a>
-                  </li>
-                  <li>
-                    <a href="#">13 May 2016</a>
-                  </li>
-                  <li>
-                    <a href="#">20 March 2016</a>
-                  </li>
-                  <li>
-                    <a href="#">09 Fabruary 2016</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="single-blog-page">
-              <div class="left-tags blog-tags">
-                <div class="popular-tag left-side-tags left-blog">
-                  <h4>popular tags</h4>
-                  <ul>
-                    <li>
-                      <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                      <a href="#">Project</a>
-                    </li>
-                    <li>
-                      <a href="#">Design</a>
-                    </li>
-                    <li>
-                      <a href="#">Website</a>
-                    </li>
-                    <li>
-                      <a href="#">Joomla</a>
-                    </li>
-                    <li>
-                      <a href="#">Html</a>
-                    </li>
-                    <li>
-                      <a href="#">wordpress</a>
-                    </li>
-                    <li>
-                      <a href="#">Masonry</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End left sidebar -->
-        <!-- Start single blog -->
-        <div class="col-md-8 col-sm-8 col-xs-12">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="single-blog">
-                <div class="single-blog-img">
-                  <a href="blog-details.html">
-											<img src="img/blog/1.jpg" alt="">
-										</a>
-                </div>
-                <div class="blog-meta">
-                  <span class="comments-type">
-											<i class="fa fa-comment-o"></i>
-											<a href="#">11 comments</a>
-										</span>
-                  <span class="date-type">
-											<i class="fa fa-calendar"></i>2016-03-05 / 09:10:16
-										</span>
-                </div>
-                <div class="blog-text">
-                  <h4>
-											<a href="#">Post my imagine Items</a>
-										</h4>
-                  <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit.
-                  </p>
-                </div>
-                <span>
-										<a href="blog-details.html" class="ready-btn">Read more</a>
-									</span>
-              </div>
-            </div>
-            <!-- End single blog -->
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="single-blog">
-                <div class="single-blog-img">
-                  <a href="blog-details.html">
-											<img src="img/blog/2.jpg" alt="">
-										</a>
-                </div>
-                <div class="blog-meta">
-                  <span class="comments-type">
-											<i class="fa fa-comment-o"></i>
-											<a href="#">7 comments</a>
-										</span>
-                  <span class="date-type">
-											<i class="fa fa-calendar"></i>2016-03-05 / 09:10:16
-										</span>
-                </div>
-                <div class="blog-text">
-                  <h4>
-											<a href="#">Post my imagine Items</a>
-										</h4>
-                  <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit.
-                  </p>
-                </div>
-                <span>
-										<a href="blog-details.html" class="ready-btn">Read more</a>
-									</span>
-              </div>
-            </div>
-            <!-- Start single blog -->
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="single-blog">
-                <div class="single-blog-img">
-                  <a href="blog-details.html">
-											<img src="img/blog/3.jpg" alt="">
-										</a>
-                </div>
-                <div class="blog-meta">
-                  <span class="comments-type">
-											<i class="fa fa-comment-o"></i>
-											<a href="#">13 comments</a>
-										</span>
-                  <span class="date-type">
-											<i class="fa fa-calendar"></i>2016-03-05 / 09:10:16
-										</span>
-                </div>
-                <div class="blog-text">
-                  <h4>
-											<a href="#">Post my imagine Items</a>
-										</h4>
-                  <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit.
-                  </p>
-                </div>
-                <span>
-										<a href="blog-details.html" class="ready-btn">Read more</a>
-									</span>
-              </div>
-            </div>
-            <!-- End single blog -->
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="single-blog">
-                <div class="single-blog-img">
-                  <a href="blog-details.html">
-											<img src="img/blog/4.jpg" alt="">
-										</a>
-                </div>
-                <div class="blog-meta">
-                  <span class="comments-type">
-											<i class="fa fa-comment-o"></i>
-											<a href="#">1 comments</a>
-										</span>
-                  <span class="date-type">
-											<i class="fa fa-calendar"></i>2016-03-05 / 09:10:16
-										</span>
-                </div>
-                <div class="blog-text">
-                  <h4>
-											<a href="#">Post my imagine Items</a>
-										</h4>
-                  <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit.
-                  </p>
-                </div>
-                <span>
-										<a href="blog-details.html" class="ready-btn">Read more</a>
-									</span>
-              </div>
-            </div>
-            <!-- Start single blog -->
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="single-blog">
-                <div class="single-blog-img">
-                  <a href="blog-details.html">
-											<img src="img/blog/5.jpg" alt="">
-										</a>
-                </div>
-                <div class="blog-meta">
-                  <span class="comments-type">
-											<i class="fa fa-comment-o"></i>
-											<a href="#">10 comments</a>
-										</span>
-                  <span class="date-type">
-											<i class="fa fa-calendar"></i>2016-03-05 / 09:10:16
-										</span>
-                </div>
-                <div class="blog-text">
-                  <h4>
-											<a href="#">Post my imagine Items</a>
-										</h4>
-                  <p>
-                    Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit.
-                  </p>
-                </div>
-                <span>
-										<a href="blog-details.html" class="ready-btn">Read more</a>
-									</span>
-              </div>
-            </div>
-            <!-- End single blog -->
-            <div class="blog-pagination">
-              <ul class="pagination">
-                <li><a href="#">&lt;</a></li>
-                <li class="active"><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">&gt;</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
+     <!-- Content Start Here -->
+
+     <div class='row'>
+     <div class='col-sm-8'>
+     <div id='map' style='height:400px;background-color:black;width:100%;'></div>
+     </div>
+     <div class='col-sm-4'></div>
+     </div>
+
+     <!-- Content Finish Here -->
     </div>
   </div>
   <!-- End Blog Area -->
@@ -468,10 +159,10 @@
             <div class="footer-content">
               <div class="footer-head">
                 <div class="footer-logo">
-                  <h2><span>e</span>Business</h2>
+                  <h2><span>m</span>Elaundry</h2>
                 </div>
 
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                <p><b><i>mElaundry</i></b> adalah solusi digital untuk kamu yang ingin melaundry pakaian. Tersedia jasa antar jemput dan beragam diskon serta pilihan menarik lainnya</p>
                 <div class="footer-icons">
                   <ul>
                     <li>
